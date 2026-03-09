@@ -6,7 +6,7 @@ import {
   getInterview,
   updateInterview,
   deleteInterview,
-} from "../controllers/interviewController.js";
+} from "../controllers/InterviewController.js";
 
 const router = express.Router();
 
