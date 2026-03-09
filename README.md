@@ -6,7 +6,7 @@ A full-stack MERN application that helps candidates practice for technical inter
 
 ## 🚀 Live Demo
 
-- **Frontend**: [https://ai-interviewer.vercel.app](https://ai-interviewer.vercel.app)
+- **Frontend**: [https://ai-interviewer-phi-neon.vercel.app/](https://ai-interviewer-phi-neon.vercel.app/)
 - **Backend API**: [https://ai-interviewer-api-bbmm.onrender.com](https://ai-interviewer-api-bbmm.onrender.com)
 
 ## ✨ Features
