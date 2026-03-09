@@ -1,0 +1,24 @@
+### Health Check
+GET http://localhost:5000/api/health
+
+### Get User Profile (add token after login)
+GET http://localhost:5000/api/users/profile
+Authorization: Bearer YOUR_FIREBASE_TOKEN
+
+### Get User Stats
+GET http://localhost:5000/api/users/stats
+Authorization: Bearer YOUR_FIREBASE_TOKEN
+
+### Create Interview
+POST http://localhost:5000/api/interviews
+Authorization: Bearer YOUR_FIREBASE_TOKEN
+Content-Type: application/json
+
+{
+  "role": "Frontend Developer",
+  "experience": "mid",
+  "techStack": ["React", "JavaScript", "CSS"],
+  "interviewType": "technical",
+  "difficulty": "medium",
+  "questions": []
+}

@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 1s ease-out;
+  }
+
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+}
+/* React Select Styles */
+.react-select__control {
+  @apply border border-gray-300 rounded-lg min-h-[46px] shadow-none hover:border-blue-600 !important;
+}
+
+.react-select__control--is-focused {
+  @apply border-blue-600 ring-2 ring-blue-100 !important;
+}
+
+.react-select__menu {
+  @apply shadow-lg border border-gray-200 !important;
+}
+
+.react-select__option--is-focused {
+  @apply bg-blue-50 !important;
+}
+
+.react-select__option--is-selected {
+  @apply bg-blue-600 text-white !important;
+}
+
+.react-select__placeholder {
+  @apply text-gray-400 !important;
+}
+
+.react-select__indicator-separator {
+  @apply hidden !important;
+}
+
+.react-select__dropdown-indicator {
+  @apply text-gray-400 hover:text-gray-600 !important;
+}
+
+.react-select__clear-indicator {
+  @apply text-gray-400 hover:text-gray-600 !important;
+}
