@@ -2,7 +2,7 @@ import User from "../models/User.js";
 import Interview from "../models/Interview.js";
 
 // In your userController.js, update the getProfile function:
-
+//hehe
 // Get user profile - exclude photo by default
 export const getProfile = async (req, res) => {
   try {
