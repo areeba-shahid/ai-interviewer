@@ -27,4 +27,8 @@ temp/
 *.swp
 *.swo
 *~
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> 0010b06bdf3f4cea7de5c00c7e9cfcc0d5857ee2
